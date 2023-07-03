@@ -1,0 +1,138 @@
+/* ---------------------------------
+Common Portion 
+------------------------------------*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Titillium+Web:wght@300;400;600;700&display=swap');
+* {
+    font-family: 'Oswald', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+}
+.underline {
+    border-top: 3px solid rgba(0, 0, 0, 0.248);
+    width: 15%;
+    margin: 10px auto;
+}
+/* Media Query for Medium above Device */
+@media only screen and (min-width: 768px){
+    .underline {
+        max-width: 8%;
+    }
+}
+
+/* ---------------------------------
+Header Portion 
+------------------------------------*/
+
+header {
+    background-color: #87509c;
+}
+header .btn {
+    background-color: #eb7d4b;
+    color: #ffffff;
+    font-size: 16px;
+}
+header .btn:hover {
+    background-color: #eb7d4b;
+}
+header ul li a:hover {
+    background-color: #643a79;
+    border-radius: 5px;
+}
+/* ---------------------------------
+Service Portion 
+------------------------------------*/
+#service {
+    background-color: #17c2a4;
+}
+/* ---------------------------------
+Team Portion 
+------------------------------------*/
+#team {
+    background-color: #e7f1f8;
+}
+
+#team .box-part a{
+    color: #3cbee8;
+}
+#team .box-part i{
+    padding: 10px;
+    background-color: #bdd1df;
+    border-radius: 50%;
+    display: inline-block;
+    color: #ffffff;
+}
+/* ---------------------------------
+Skill Portion 
+------------------------------------*/
+#Skill {
+    background-color: #ffffff;
+}
+/* ---------------------------------
+Portfolio Portion 
+------------------------------------*/
+#portfolio {
+    background-color: #ffdd99;
+}
+#portfolio .btn-box button {
+    background-color: #ebc985;
+    color: #6e6e6e;
+    border: none;
+}
+#portfolio .btn-box button:hover {
+    background-color: #ffffff;
+}
+#portfolio button {
+    background-color: #17c2a4;
+    color: #ffffff;
+}
+/* ---------------------------------
+People Reaction Portion 
+------------------------------------*/
+#people {
+    background-color: #d74680;
+}
+#people .box-part a {
+    color: #fcd397;
+}
+/* ---------------------------------
+Feedback Portion 
+------------------------------------*/
+#feedback {
+    background-color: #3c5499;
+}
+#feedback input, textarea{
+    background-color: #273a71;
+}
+#feedback input::placeholder, textarea::placeholder{
+    color: #ffffff;
+}
+#feedback form textarea {
+    border-radius: 5px;
+}
+#feedback .btn {
+    background-color: #30bae7;
+}
+/* ---------------------------------
+Footer Portion 
+------------------------------------*/
+
+#footer {
+    background-color: #344b8e;
+}
+#footer ul {
+    list-style: none;
+    text-align: center;
+}
+#footer ul li{
+    display: inline-block;
+    margin: 10px;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+#footer ul li a:hover{
+    color: #319ccf;
+}
